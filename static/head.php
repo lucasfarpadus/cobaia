@@ -30,7 +30,8 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Buenas e aqui me espalho!</h1>
+        <h1>Run-off Tecnologia</h1>
+        <p>Buenas e aqui me espalho.</p>
         <p>Bem-vindo ao portal de informações da empresa do povão.<br />Estamos aqui para ajudar e resolver os problemas que não existiam antes dos computadores serem inventados.</p>
         <p><a href="https://en.wikipedia.org/wiki/Run-off_area" class="btn btn-primary btn-lg" role="button">Leia mais sobre nossa marca &raquo;</a></p>
       </div>

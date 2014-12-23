@@ -7,15 +7,11 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Conheça-nos:</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">Produtos</a></li>
-              <li><a href="#about">Serviços</a></li>
-              <li><a href="#about">Empresa</a></li>
-              <li><a href="#contact">Contato</a></li>
+              <?php require_once('menu_lista.php'); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
