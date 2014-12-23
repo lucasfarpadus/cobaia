@@ -16,3 +16,27 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+  #footer {
+    height: 60px;
+  }
+  #footer {
+    background-color: #f5f5f5;
+  }
+
+  /* Lastly, apply responsive CSS fixes as necessary */
+  @media (max-width: 767px) {
+    #footer {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+.muted {
+  color: #999999;
+  text-align: center;
+}
+.container .credit {
+margin: 20px 0;
+}
+
