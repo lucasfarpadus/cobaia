@@ -6,7 +6,14 @@ if(isset($_POST['enviado']))
 }
 else
 {
-    $caminho = $_GET['local'];
+    if(isset($_GET['local'])) //interessante que nem o built-in server do php me mostrou esse descuido
+    {
+        $caminho = $_GET['local'];
+    }
+    else
+    {
+        $caminho = "home.php";
+    }
     switch ($caminho) {
         case 'produtos':
             $local = "static/" . $_GET['local'] . ".php";
