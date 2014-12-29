@@ -11,7 +11,7 @@ function limpar($vars, $c)
       }
     break;
 
-    case '1': // limpa e avisa estejam vazias
+    case '1': // limpa e avisa caso estejam vazias
       $_POST["i"] = "0";
       foreach($vars as $campo)
       {

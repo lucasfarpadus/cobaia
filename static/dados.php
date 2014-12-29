@@ -29,7 +29,7 @@
               <h3 class="panel-title">Telefone</h3>
             </div>
             <div class="panel-body">
-              <?php if($_POST['tel']==""){echo "vazio";}else{echo $_POST['tel'];} ?>
+              <?php $_POST['tel'] = str_replace(" ", "", $_POST['tel']); if($_POST['tel']==""){echo "vazio";}else{echo $_POST['tel'];} ?>
             </div>
           </div>
           <div class="panel panel-default">
